@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products -Redstore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="menuitems">
+                <li><a href="index.html">home</a></li>
+                <li><a href="Products.html">products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href=""> Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <img src="images/cart.png" width="30px" height="30px">
+        <img src="images/menu.png" class="menu-icon" onclick="menuToggle()">
+    </div>
+</div>
+<!-------------carct items detail----------->
+<div class="small-container  cart-page">
+    <table>
+        <tr>
+        <th>Product</th>
+        <th>quantity</th>
+        <th>subtotal</th>
+    </tr>
+    <tr>
+        <td>
+<div class="cart-info">
+    <img src="images/buy-1.jpg" alt="">
+    <div>
+        <p>Printed T-shirt</p>
+        <small>Price: $50.00</small>
+        <br>
+        <a href="">Remove</a>
+    </div>
+</div>
+
+
+        </td>
+       <td><input type="number" value="1"></td>
+       <td>$50.00</td>
+    </tr>
+    <tr>
+        <td>
+<div class="cart-info">
+    <img src="images/buy-2.jpg" alt="">
+    <div>
+        <p>Printed T-shirt</p>
+        <small>Price: $75.00</small>
+        <br>
+        <a href="">Remove</a>
+    </div>
+</div>
+
+
+        </td>
+       <td><input type="number" value="1"></td>
+       <td>$75.00</td>
+    </tr>
+    <tr>
+        <td>
+<div class="cart-info">
+    <img src="images/buy-3.jpg" alt="">
+    <div>
+        <p>Printed T-shirt</p>
+        <small>Price: $100.00</small>
+        <br>
+        <a href="">Remove</a>
+    </div>
+</div>
+
+
+        </td>
+       <td><input type="number" value="1"></td>
+       <td>$100.00</td>
+    </tr>
+    </table>
+<div class="total-price">
+    <table>
+        <tr>
+            <td>Subtotal</td>
+            <td>$200.00</td>
+        </tr>
+        <tr>
+            <td>Tax</td>
+            <td>$35.00</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td>$230.00</td>
+        </tr>
+    </table>
+</div>
+
+
+</div>
+
+<!------footer-------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Andriod and ios mobile phones</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="">
+                            <p>Our Purpose Is To made sustainbly Make the Pleaasure and
+                                 Benefits of Supports</p>
+                        </div>
+                        <div class="footer-col-3">
+                            <h3>Useful Links</h3>
+                           <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                           </ul>
+                        </div>
+                        
+            <div class="footer-col-3">
+                <h3>Follow us</h3>
+               <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>You tube</li>
+               </ul>
+            </div>
+                        </div>
+        <hr>
+        <p class="copyright">Copright 2020-Easy Tutorial</p>
+    </div>
+</div>
+<!------------------js for toggle menu------------------->
+<script>
+    var menuitems = document.getElementById("menuitems");
+
+    menuitems.style.maxHeight="0px";
+
+    function  menuToggle(){
+        if (
+    menuitems.style.maxHeight=="0px")
+    {
+        menuitems.style.maxHeight="200px"
+    }
+    else
+    {
+        menuitems.style.maxHeight="0px"
+    }
+    }
+</script>
+
+
+</body>
+</html>
